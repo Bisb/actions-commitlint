@@ -13,3 +13,4 @@ jobs:
         uses: aschbacd/gitlint-action@v1.2.0
         with:
           re-branch-name: ^(feature|bugfix|hotfix|release|docs)\/.+$
+          re-commit-message-subject: .*
